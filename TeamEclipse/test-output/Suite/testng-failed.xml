@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pageObjectTestCases.TC01Login">
+        <methods>
+          <include name="initilialize"/>
+          <include name="after"/>
+          <include name="MCOLogin"/>
+        </methods>
+      </class> <!-- pageObjectTestCases.TC01Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
